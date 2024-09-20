@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /*
+        상속 : 글자를 다루는 디자인 속성들이 상속 됨
+                ex) 글자 크기 
+      
+      단위
+        1) px : 고정크기 (브라우저의 크기를 축소하면 스크롤이 나타남)
+        2) % : 상대크기
+        3) em : em 단위가 쓰여진 곳의 폰트 사이즈 배수    
+        4) vw,vh : viewport width, viewport height => 화면기준
+        */
+      /* body{
+            font-size: 18px; em size 설정 미 지정시 기본 16
+        } */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 1.5em; /* 24px */
+      }
+      h2 {
+        font-size: 1.2em; /* 19.2px */
+      }
+      p {
+        font-size: 1em; /* 16px */
+        width: 100vw;
+        height: 50vh;
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS 기본 문법</h1>
+    <h2>단위</h2>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat dolorem
+      praesentium consequuntur voluptate labore ab dolorum ullam, provident,
+      consectetur enim veritatis quam hic quod animi tempore accusamus at!
+      Dolorum, dignissimos.
+    </p>
+  </body>
+</html>
