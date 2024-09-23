@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+#fname {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #555;
+}
+input:focus {
+  background-color: antiquewhite;
+}
+
+div {
+  margin-bottom: 50px;
+}

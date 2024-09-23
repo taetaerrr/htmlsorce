@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./mystyle.css" />
+    <style>
+      /* css 작성 가능 */
+      /* .area p{
+            color: green;
+        } */
+    </style>
+  </head>
+  <body>
+    <!-- 
+        CSS : 상속 / 우선순위
+
+        글자를 다루는 속성들이 주로 상속 됨
+
+        우선순위
+        1. 명시도 점수가 높은 선언이 우선함
+            important > 인라인선언 > 아이디 > 클래스 > 태그 > 전체 > 상속
+        2. 점수가 같은 경우 가장 마지막에 해석되는 선언이 우선함
+        3. 가상요소 
+        가상클래스 클래스 선택자와 동일한 점수
+        부정 선택자
+        :not(h1) 1점 :not(box) 10점
+
+
+
+    -->
+    <div class="ecosystem">
+      <div class="animal">
+        동물
+        <div class="tiger">호랑이</div>
+        <div class="lion">사자</div>
+        <div class="elephant">코끼리</div>
+      </div>
+      <div class="plant">식물</div>
+    </div>
+    <div class="area">
+      <p id="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius labore
+        saepe fugiat, atque culpa iste quam non, cupiditate harum eos sunt
+        eveniet! Repellat accusamus voluptatum consectetur tempora sunt vel
+        impedit.
+      </p>
+      <p id="text2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius labore
+        saepe fugiat, atque culpa iste quam non, cupiditate harum eos sunt
+        eveniet! Repellat accusamus voluptatum consectetur tempora sunt vel
+        impedit.
+      </p>
+    </div>
+  </body>
+</html>
