@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+/* menu : border, width:350 height:145 상단 margin */
+/* read-more : 안쪽여백 상하0 좌우 10 밑줄제거 흰색 검정배경 */
+.menu {
+  border: 2px solid black;
+  width: 350px;
+  height: 145px;
+  margin-top: 50px;
+  position: relative;
+}
+a.read-more {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  position: absolute;
+  /* top: -50px; */
+  right: 0;
+  bottom: calc(100% + 10px);
+}

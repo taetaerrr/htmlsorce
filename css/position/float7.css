@@ -1,0 +1,33 @@
+/* 전체 요소의 마진 패딩 0 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ul 배경색 #333 */
+ul {
+  background-color: #333;
+}
+
+/* li 옆으로 */
+.container li {
+  float: left;
+  padding: 14px 16px;
+}
+
+/* 메뉴에 마우스 올리면 배경색 blueviolet 변경 */
+.container li:hover {
+  background-color: blueviolet;
+}
+
+.container li a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* .clearfix를 이용한 float 해제 */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}

@@ -1,0 +1,46 @@
+body {
+  background-color: #222;
+}
+
+.grid {
+  width: 500px;
+  margin: 0 auto;
+  background-color: white;
+
+
+  /* overflow: hidden; */
+
+
+  /* 박스 옆 공백 */
+  /* font-size: 0;
+  text-align: center;
+} */
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+
+.grid-item {
+  width: 100px;
+  height: 100px;
+  float: left;
+
+
+
+  /* display: inline-block; */
+  /* 박스 밑 공백 */
+  /* vertical-align: top; */
+}
+.a {
+  background-color: orange;
+}
+.b {
+  background-color: orangered;
+}
+
+.c {
+  background-color: red;
+}

@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 5000px;
+}
+
+img {
+  vertical-align: top;
+}
+
+.box {
+  position: absolute;
+}
