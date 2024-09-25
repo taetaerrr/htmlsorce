@@ -1,0 +1,14 @@
+/* 
+    z-index : 요소의 쌓임 순서 조정 (우선순위)
+    1) position:static 을 제외한 position 속성 값이 있을 경우 가장 위에 쌓임
+    2) position이 모두 존재한다면 z-index 속성의 숫자 값이 높을 경우 위에 쌓임
+    3) position 속성의 값이 있고z-index 속성의 숫자값이 같다면 HTML 의 마지막 코드 일 수록 위에 쌓임
+*/
+
+img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* 요소가 겹쳐있을 때 순서 조정 */
+  z-index: -1;
+}

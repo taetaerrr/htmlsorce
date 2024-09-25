@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row div:first-child {
+  background: #aaa;
+}
+
+.row div:nth-child(2) {
+  background: #bbb;
+}
+.row div:nth-child(3) {
+  background: #ccc;
+}
+.row div:last-child {
+  background: #ddd;
+}
+.row .column {
+  float: left;
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+}
+@media screen and (max-width: 992px) {
+  .row .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .row .column {
+    width: 100%;
+  }
+}
